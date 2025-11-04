@@ -46,28 +46,6 @@ portfolio/
     └── docs/          # Documents/PDFs
 ```
 
-## 🚀 Quick Start
-
-### Option 1: GitHub Pages (Recommended)
-
-1. Fork this repository
-2. Go to **Settings** → **Pages**
-3. Select **main branch** as source
-4. Your site will be live at: `https://your-username.github.io`
-
-### Option 2: Local Development
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-username.github.io.git
-
-# Navigate to directory
-cd your-username.github.io
-
-# Open in browser
-open index.html
-```
-
 ## 🎯 Featured Projects
 
 ### 1️⃣ Brain & Breast Tumor Segmentation
