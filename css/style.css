@@ -173,6 +173,12 @@ ul {
   color: var(--accent);
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -210,8 +216,8 @@ ul {
   font-size: 1.15rem;
   transition: all var(--transition);
   flex-shrink: 0;
-  margin-left: 0.75rem;
   line-height: 1;
+  padding: 0;
 }
 
 .theme-toggle:hover {
@@ -1078,6 +1084,10 @@ ul {
 }
 
 @media (max-width: 768px) {
+  .nav-right {
+    gap: 0.5rem;
+  }
+
   .nav-links {
     position: fixed;
     top: 70px;
@@ -1100,6 +1110,12 @@ ul {
   .nav-links a {
     padding: 0.75rem 1rem;
     width: 100%;
+  }
+
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
   }
 
   .menu-toggle {
