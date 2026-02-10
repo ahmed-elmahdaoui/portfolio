@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Ahmed EL MAHDAOUI</title>
+  <meta name="description" content="Machine Learning and Data Science projects by Ahmed EL MAHDAOUI.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Background -->
+  <div class="bg-wrapper">
+    <img src="bg.png" alt="">
+  </div>
+  <div class="bg-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">A<span>.</span>ELM</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Projects Content -->
+  <main class="page-content">
+    <div class="container">
+
+      <!-- Header -->
+      <div class="section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h1 class="section-title">Key Projects</h1>
+        <p class="section-subtitle">A selection of Machine Learning, Deep Learning, and AI projects I've built.</p>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="card project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">⚡</div>
+            <div class="project-links">
+              <a href="https://github.com/ahmed-elmahdaoui/multimodal-ctr-prediction" target="_blank" title="GitHub">↗</a>
+            </div>
+          </div>
+          <h3>Multimodal CTR Prediction System</h3>
+          <p>Sequential recommendation system with multimodal fusion for click-through rate prediction.</p>
+          <ul>
+            <li>SASRec &amp; BST for sequential recommendation (1M interactions)</li>
+            <li>Multimodal embeddings fusion (text-image-behavior, 128D)</li>
+            <li>Multi-GPU training with Focal Loss &amp; Label Smoothing</li>
+            <li>AUC: 0.957</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">Multi-GPU</span>
+            <span class="tag">RecSys</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card project-card reveal reveal-delay-1">
+          <div class="project-header">
+            <div class="project-icon">📄</div>
+            <div class="project-links">
+              <a href="https://github.com/ahmed-elmahdaoui/Langchain-ChromaDb-RAG" target="_blank" title="GitHub">↗</a>
+            </div>
+          </div>
+          <h3>DocuMind — RAG Document Assistant</h3>
+          <p>Complete RAG architecture for intelligent document question-answering with semantic search.</p>
+          <ul>
+            <li>Full RAG pipeline: chunking, local embeddings, vector search</li>
+            <li>Google Gemini integration with prompt engineering</li>
+            <li>Semantic search on ChromaDB (Top-4 retrieval)</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">LangChain</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">ChromaDB</span>
+            <span class="tag">RAG</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card project-card reveal reveal-delay-2">
+          <div class="project-header">
+            <div class="project-icon">🎬</div>
+            <div class="project-links">
+              <a href="https://github.com/ahmed-elmahdaoui/movie-recommender" target="_blank" title="GitHub">↗</a>
+            </div>
+          </div>
+          <h3>Movie Recommendation System</h3>
+          <p>Collaborative filtering recommendation engine with a Netflix-style interface.</p>
+          <ul>
+            <li>User-based collaborative filtering on MovieLens 100K (943×1682)</li>
+            <li>FastAPI REST API with Netflix-style UI</li>
+            <li>Cosine similarity &amp; weighted average prediction</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">FastAPI</span>
+            <span class="tag">Collaborative Filtering</span>
+            <span class="tag">RecSys</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">🧠</div>
+            <div class="project-links">
+              <a href="#" title="Private Repository">↗</a>
+            </div>
+          </div>
+          <h3>Medical Image Segmentation</h3>
+          <p>Brain &amp; breast tumor segmentation using state-of-the-art deep learning architectures.</p>
+          <ul>
+            <li>Comparison of U-Net, U-Net++, DeepLabv3 for tumor detection</li>
+            <li>Evaluation with IoU &amp; Dice coefficient metrics</li>
+            <li>FastAPI deployment for production inference</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">U-Net</span>
+            <span class="tag">DeepLabv3</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">Medical AI</span>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="card project-card reveal reveal-delay-1">
+          <div class="project-header">
+            <div class="project-icon">📹</div>
+            <div class="project-links">
+              <a href="#" title="Private Repository">↗</a>
+            </div>
+          </div>
+          <h3>Real-time Multi-Object Tracking</h3>
+          <p>YOLO + Deep SORT system for real-time object detection and multi-object tracking.</p>
+          <ul>
+            <li>YOLOv8 training for real-time detection</li>
+            <li>Deep SORT implementation for multi-object tracking</li>
+            <li>Trajectory visualization &amp; motion analysis</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">YOLOv8</span>
+            <span class="tag">Deep SORT</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Tracking</span>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="card project-card reveal reveal-delay-2">
+          <div class="project-header">
+            <div class="project-icon">📝</div>
+            <div class="project-links">
+              <a href="#" title="Private Repository">↗</a>
+            </div>
+          </div>
+          <h3>Text Classification with BERT</h3>
+          <p>Fine-tuned BERT model for multi-class text classification with NLP preprocessing.</p>
+          <ul>
+            <li>BERT fine-tuning for multi-class classification</li>
+            <li>NLP preprocessing: tokenization, padding</li>
+            <li>Evaluation: Precision, Recall, F1-score</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">BERT</span>
+            <span class="tag">NLP</span>
+            <span class="tag">HuggingFace</span>
+            <span class="tag">Fine-tuning</span>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="card project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">🌐</div>
+            <div class="project-links">
+              <a href="#" title="Private Repository">↗</a>
+            </div>
+          </div>
+          <h3>English–Moroccan Dialect Translation</h3>
+          <p>Translation API integrating Gemini LLM with advanced prompt engineering for Darija output.</p>
+          <ul>
+            <li>REST API with Java &amp; JAX-RS</li>
+            <li>Gemini LLM integration with advanced prompt engineering</li>
+            <li>PHP web interface</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">JAX-RS</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">LLM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Ahmed EL MAHDAOUI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

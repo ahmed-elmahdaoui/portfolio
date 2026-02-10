@@ -1,103 +1,56 @@
-# 🚀 Ahmed EL MAHDAOUI - Portfolio
+# Ahmed EL MAHDAOUI — Portfolio
 
-![Portfolio Preview](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-> 🎓 Master's Student in Data Science & AI | Computer Vision Specialist | Deep Learning Enthusiast
+> Data Scientist & Machine Learning Engineer | Deep Learning · Computer Vision · NLP · Recommender Systems
 
-## 📌 About
+## About
 
-Welcome to my professional portfolio! I'm Ahmed EL MAHDAOUI, a passionate Data Science and AI student specializing in:
+Professional portfolio website for Ahmed EL MAHDAOUI — double Master's student in Data Science (WISD & EID) at Faculté des Sciences Fès & Sorbonne Paris Nord.
 
-- 🤖 **Machine Learning & Deep Learning**
-- 👁️ **Computer Vision** (YOLO, Segmentation, Tracking)
-- 🧠 **Medical Image Analysis**
-- 🌐 **Full-Stack Development**
-
-- 
-
-## ✨ Features
-
-- 🎨 **Modern Dark Theme** with glassmorphism effects
-- 🌊 **Smooth Animations** and transitions
-- 📱 **Fully Responsive** design
-- 🚀 **Interactive UI/UX** with hover effects
-- ⚡ **Fast Loading** and optimized performance
-- 🎯 **Clean Code** structure
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3 (Custom Properties, Flexbox, Grid)
-- Vanilla JavaScript (ES6+)
-- Google Fonts (Poppins)
-- SVG Icons
-- Formspree (Contact Form)
-
-## 📂 Project Structure
+## Structure
 
 ```
 portfolio/
-│
-├── index.html          # Main HTML file
-├── README.md          # This file
-└── assets/            # Assets folder (optional)
-    ├── images/        # Images
-    └── docs/          # Documents/PDFs
+├── index.html          # Home / Landing page
+├── about.html          # Profile, education, languages
+├── projects.html       # ML/DL project showcase
+├── skills.html         # Technical skills & competencies
+├── contact.html        # Contact form & info
+├── css/
+│   └── style.css       # Main stylesheet
+├── js/
+│   └── main.js         # Navigation, animations, form
+├── bg.png              # Background image
+├── me.png              # Profile photo
+└── README.md
 ```
 
-## 🎯 Featured Projects
+## Features
 
-### 1️⃣ Brain & Breast Tumor Segmentation
-Advanced medical image segmentation using **U-Net++** and **DeepLabv3**
-- 🎯 90%+ IoU accuracy
-- 🧠 ResNet34 backbone
-- 🔬 Medical imaging application
+- Multi-page layout with shared navigation
+- Dark, professional color scheme (black/gray tones)
+- Subtle scroll-reveal animations (non-intrusive)
+- Fully responsive (mobile, tablet, desktop)
+- Background image support (`bg.png`) and profile photo (`me.png`)
 
-### 2️⃣ Real-time Object Detection & Tracking
-YOLO + Deep SORT system for multi-object tracking
-- ⚡ 30+ FPS performance
-- 🎯 85%+ MOTA accuracy
-- 🎥 Real-time video processing
+## Setup
 
-### 3️⃣ Java EE RESTful API
-Backend application with Gemini API integration
-- ☕ Java EE + WildFly
-- 🔐 JWT Authentication
-- 🚀 Scalable architecture
+1. Add your background image as `bg.png` in the root
+2. Add your profile photo as `me.png` in the root
+3. Update the Formspree form ID in `contact.html`
+4. Deploy (GitHub Pages, Netlify, etc.)
 
-## 📫 Contact
+## Contact
 
-- 📧 Email: [ahmed.elmahdawi@usmba.ac.ma@gmail.com](mailto:ahmed.elmahdawi@usmba.ac.ma)
-- 💼 LinkedIn: [Ahmed EL MAHDAOUI](https://www.linkedin.com/in/ahmed-el-mahdaoui-00bab9282/)
-- 📍 Location: Fès, Morocco
-
-## 🎓 Education
-
-- **Master's in Computer Data Mining & Decision Making (EID²)** - Sorbonne Paris Nord (2025-2026)
-- **Master's in Web Intelligent & Data Science (WISD)** - FSDM/USPN (2024-2025)
-- **Bachelor in Mathematics & Computer Science** - FSDM (2021-2024)
-
-## 🏆 Certifications
-
-- **Advanced SQL for Data Engineering** - 365 Data Science (2024)
-
-## 📊 Skills
-
-**Programming & Data Science:**
-- Python (NumPy, Pandas, Matplotlib)
-- Machine Learning (scikit-learn)
-- Deep Learning (PyTorch, TensorFlow)
-
-**Computer Vision:**
-- YOLO (Object Detection)
-- U-Net++, DeepLabV3 (Segmentation)
-- Deep SORT (Multi-object Tracking)
-
-**Web Development:**
-- HTML5, CSS3, JavaScript
+- Email: ahmed.elmahdawi@usmba.ac.ma
+- Phone: +212 766 642 728
+- LinkedIn: [ahmed-el-mahdaoui](https://www.linkedin.com/in/ahmed-el-mahdaoui-00bab9282/)
+- GitHub: [ahmed-elmahdaoui](https://github.com/ahmed-elmahdaoui)
+- Location: Fès, Morocco
 - Node.js, REST APIs
 - Java EE, MySQL
 
