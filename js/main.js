@@ -3,6 +3,22 @@
    =================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
+
+  // --- Theme Toggle (dark/light) ---
+  const root = document.documentElement;
+  const stored = localStorage.getItem('theme');
+  const theme = stored || 'dark';
+  root.setAttribute('data-theme', theme);
+
+  document.querySelectorAll('.theme-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const current = root.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  });
+
   // --- Mobile Menu Toggle ---
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
